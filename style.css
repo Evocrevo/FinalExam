@@ -54,7 +54,7 @@ p{
         border-radius: 5px;
     }
     .main-container .container3{
-        width: 46px;
+        width: 95%;
         height: auto;
         margin-left: 20px;
         background-color: dodgerblue;
@@ -63,4 +63,17 @@ p{
         border: 2px solid black;
         border-radius: 5px;
     }
+    /*Tablet size*/
+@media (max-width:767px){
+    .main-container .container1{
+        width: 95%;
+        height: auto;
+        margin-left: 20px;
+        background-color: mediumaquamarine;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
 }
