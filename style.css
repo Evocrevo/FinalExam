@@ -15,3 +15,32 @@ h1{
     text-align: center;
     font-size: 75%;
 }
+p{
+    padding: 40px;
+}
+/*Desktop size*/
+@media (min-width:992px){
+    .main-container{
+        width: 30px;
+        height: auto;
+        margin-left: 20px;
+        background-color: bisque;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
+/*Tablet size*/
+@media (min-width:992px){
+    .main-container{
+        width: px;
+        height: auto;
+        margin-left: 20px;
+        background-color: bisque;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
